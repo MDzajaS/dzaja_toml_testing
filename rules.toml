@@ -1,0 +1,27 @@
+[[rule]]
+field_label = "first_name"
+field_type = "string"
+encryption_type = "none"
+attribute1 = "dummy1"
+attribute2 = "dummy2"
+attribute3 = "dummy3"
+attribute4 = "dummy4"
+
+[[rule]]
+field_label = "employment_status"
+field_type = "string"
+encryption_type = "AES"
+attribute1 = "dummy1"
+attribute2 = "dummy2"
+
+[[rule]]
+field_label = "super_secret"
+field_type = "string"
+encryption_type = "DSA"
+
+[[rule]]
+field_label = "oib"
+field_type = "string"
+encryption_type = "RSA"
+attribute1 = "dummy1"
+attribute2 = "dummy2"
